@@ -1,5 +1,7 @@
-clean
-throw
-play
-fix
-master python
+Make soup in the morning
+Clean the code
+Buy the painting
+New Order
+Get the car
+Buy grocery
+Master Python!
