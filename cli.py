@@ -1,4 +1,4 @@
-file = open('todos.txt','r')
+file = open('Todo-App/todos.txt', 'r')
 todos = file.readlines()
 file.close()
 
@@ -10,7 +10,7 @@ while True:
         case 'add':
             todo = input("Enter a todo: ") + "\n"
             todos.append(todo)
-            file = open('todos.txt', 'w')
+            file = open('Todo-App/todos.txt', 'w')
             file.writelines(todos)
             file.close()
         case 'show':
